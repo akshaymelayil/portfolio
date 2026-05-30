@@ -2,24 +2,57 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 backdrop-blur-xl bg-black/40">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        
-        <div>
-          <h1 className="text-xl font-black tracking-tighter text-white">
-            AKSHAY M
-          </h1>
 
-          <p className="text-[9px] tracking-[0.4em] uppercase text-white/40 font-mono">
-            Systems Administrator & Developer
-          </p>
+        {/* Left Section */}
+        <div className="flex items-center gap-4">
+
+          {/* Profile Photo */}
+          <div className="relative">
+            <img
+              src="/profile.png"
+              alt="Akshay Melayil"
+              className="w-12 h-12 rounded-full object-cover border border-cyan-500/20"
+            />
+
+            <div className="absolute inset-0 rounded-full border border-cyan-400/20 animate-pulse" />
+          </div>
+
+          {/* Name */}
+          <div>
+            <h1 className="text-xl font-black tracking-tighter text-white">
+              AKSHAY MELAYIL
+            </h1>
+
+            <p className="text-[9px] tracking-[0.4em] uppercase text-white/40 font-mono">
+              Systems Administrator & Developer
+            </p>
+          </div>
+
         </div>
 
+        {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8 text-[10px] font-mono uppercase tracking-[0.25em] text-white/50">
-          <a href="#identity">Identity</a>
-          <a href="#experience">Experience</a>
-          <a href="#skills">Stack</a>
-          <a href="#projects">Systems</a>
-          <a href="#contact">Connect</a>
+          <a href="#identity" className="hover:text-cyan-300 transition-colors">
+            Identity
+          </a>
+
+          <a href="#experience" className="hover:text-cyan-300 transition-colors">
+            Experience
+          </a>
+
+          <a href="#skills" className="hover:text-cyan-300 transition-colors">
+            Stack
+          </a>
+
+          <a href="#projects" className="hover:text-cyan-300 transition-colors">
+            Systems
+          </a>
+
+          <a href="#contact" className="hover:text-cyan-300 transition-colors">
+            Connect
+          </a>
         </nav>
+
       </div>
     </header>
   );

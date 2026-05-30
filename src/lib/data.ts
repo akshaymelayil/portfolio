@@ -52,7 +52,7 @@ export const experience = {
     { label: "Uptime Achieved", value: "99%" }, // [cite: 15]
     { label: "Performance Boost", value: "+25%" }, // [cite: 15]
     { label: "Incident Reduction", value: "-35%" }, // [cite: 27]
-    { label: "Support Handled", value: "530+ Users" } // [cite: 13]
+    { label: "Support Handled", value: "730+ Users" } // [cite: 13]
   ],
   points: [
     "Orchestrate application and operational system architectures for 500+ students and 30+ permanent faculty members.", // [cite: 13, 14]
@@ -67,18 +67,54 @@ export const experience = {
 export const skillCategories = [
   {
     title: "Backend & Engineering",
-    skills: ["Python", "Django Framework", "SQL (MySQL, PostgreSQL)", "XAMPP"]
+    skills: [
+      "Python",
+      "Django",
+      "REST APIs",
+      "MySQL",
+      "PostgreSQL",
+      "Authentication",
+      "ORM",
+      "MVC"
+    ]
   },
   {
     title: "Infrastructure & Systems",
-    skills: ["Windows OS Administration", "Network Troubleshooting (LAN/WAN)", "Firewall & Routing Controls", "CCTV Infrastructure"]
+    skills: [
+      "Windows Server",
+      "LAN/WAN",
+      "Routing",
+      "Firewall",
+      "DNS",
+      "DHCP",
+      "CCTV",
+      "Hardware Support"
+    ]
   },
   {
     title: "Frontend & Design",
-    skills: ["React", "HTML5", "CSS3", "Bootstrap", "Responsive Layouts"]
+    skills: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Responsive UI"
+    ]
   },
   {
-    title: "Operations & DevOps",
-    skills: ["Git & GitHub", "VS Code", "System Patching & Automation", "Backup Architectures", "Incident Resolution Tracking"]
+    title: "Tools & Operations",
+    skills: [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Linux",
+      "OpenCV",
+      "Dlib",
+      "Technical Support",
+      "System Maintenance"
+    ]
   }
 ];

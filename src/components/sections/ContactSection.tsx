@@ -18,33 +18,115 @@ export default function ContactSection() {
           Ready to route administrative integrations, execute customized core system operations, or manage scalable application codebases.
         </p>
 
-        {/* Explicit Contact Grid */}
-        <div className="max-w-md mx-auto grid gap-3 font-mono text-xs pt-6">
-          <div className="p-4 rounded-xl border border-white/5 bg-black/50 flex items-center justify-between">
-            <span className="text-white/30">Direct Link Node</span>
-            <a 
-              href="mailto:akshaymelayil@gmail.com" 
-              className="text-cyan-300 hover:underline transition-all"
-            >
-              akshaymelayil@gmail.com
-            </a>
-          </div>
+{/* Contact Information */}
+<div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6 pt-6 font-mono text-xs">
 
-          <div className="p-4 rounded-xl border border-white/5 bg-black/50 flex items-center justify-between">
-            <span className="text-white/30">Call Network Terminal</span>
-            <a 
-              href="tel:+919947791583" 
-              className="text-cyan-300 hover:underline transition-all"
-            >
-              +91 9947791583
-            </a>
-          </div>
+  {/* Direct Contact */}
+  <div className="rounded-2xl border border-white/5 bg-black/50 p-6 text-left">
+    <h3 className="text-cyan-400 uppercase tracking-[0.25em] mb-6">
+      Direct Channels
+    </h3>
 
-          <div className="p-4 rounded-xl border border-white/5 bg-black/50 flex items-center justify-between">
-            <span className="text-white/30">Geographic Routing</span>
-            <span className="text-white/80">Malappuram, Kerala, India</span>
-          </div>
-        </div>
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <span className="text-white/30">Email</span>
+        <a
+          href="mailto:akshaymelayil@gmail.com"
+          className="text-cyan-300 hover:underline"
+        >
+          akshaymelayil@gmail.com
+        </a>
+      </div>
+
+      <div className="flex items-center justify-between">
+        <span className="text-white/30">Phone</span>
+        <a
+          href="tel:+919947791583"
+          className="text-cyan-300 hover:underline"
+        >
+          +91 9947791583
+        </a>
+      </div>
+
+      <div className="flex items-center justify-between">
+        <span className="text-white/30">WhatsApp</span>
+        <a
+          href="https://wa.me/919947791583"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-cyan-300 hover:underline"
+        >
+          Chat Now
+        </a>
+      </div>
+
+      <div className="flex items-center justify-between">
+        <span className="text-white/30">Location</span>
+        <span className="text-white/80">
+          Malappuram, Kerala, India
+        </span>
+      </div>
+    </div>
+  </div>
+
+  {/* Social Networks */}
+  <div className="rounded-2xl border border-white/5 bg-black/50 p-6 text-left">
+    <h3 className="text-cyan-400 uppercase tracking-[0.25em] mb-6">
+      Network Endpoints
+    </h3>
+
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <span className="text-white/30">GitHub</span>
+        <a
+          href="https://github.com/akshaymelayil"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-cyan-300 hover:underline"
+        >
+          View Profile
+        </a>
+      </div>
+
+      <div className="flex items-center justify-between">
+        <span className="text-white/30">Instagram</span>
+        <a
+          href="https://instagram.com/akshay_hendry"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-cyan-300 hover:underline"
+        >
+          @akshayhendry
+        </a>
+      </div>
+
+      <div className="flex items-center justify-between">
+        <span className="text-white/30">LinkedIn</span>
+        <a
+          href="https://linkedin.com/in/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-cyan-300 hover:underline"
+        >
+          Connect
+        </a>
+      </div>
+
+      <div className="flex items-center justify-between">
+        <span className="text-white/30">Facebook</span>
+        <a
+          href="https://facebook.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-cyan-300 hover:underline"
+        >
+          Follow
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
 
         {/* Action Controls */}
       <div className="flex flex-wrap justify-center gap-4 font-mono text-xs pt-8">
@@ -63,14 +145,6 @@ export default function ContactSection() {
           establish_handshake.sh
         </span>
         </a>
-
-        <a href="https://github.com/akshaymelayil"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-8 py-4 rounded-xl border border-white/10 bg-white/[0.02] hover:border-white/30 text-white transition-all duration-300 uppercase">
-        GitHub Node
-        </a>
-
 
       <a
         href="/Akshay_M_Resume.pdf"

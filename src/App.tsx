@@ -17,7 +17,7 @@ const App = () => (
 
       // Desktop / Laptop settings
       smoothWheel: true,
-      duration: 1.2,
+      duration: 1.9,
       // wheelMultiplier: 0.9 increases the "weight" by 10% (requires more physical movement)
       wheelMultiplier: 0.9,
       easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
