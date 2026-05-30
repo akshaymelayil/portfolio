@@ -14,11 +14,11 @@ export default function Navbar() {
         </div>
 
         <nav className="hidden md:flex items-center gap-8 text-[10px] font-mono uppercase tracking-[0.25em] text-white/50">
-          <a href="#identity">01// Identity</a>
-          <a href="#experience">02// Experience</a>
-          <a href="#skills">03// Stack</a>
-          <a href="#projects">04// Systems</a>
-          <a href="#contact">05// Connect</a>
+          <a href="#identity">Identity</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Stack</a>
+          <a href="#projects">Systems</a>
+          <a href="#contact">Connect</a>
         </nav>
       </div>
     </header>
