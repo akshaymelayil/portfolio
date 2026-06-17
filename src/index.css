@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap');
 
 /* Editorial Minimalist Design System
    Inspired by: Bold serif typography, pure white backgrounds, generous whitespace

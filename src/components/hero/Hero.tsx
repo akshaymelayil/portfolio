@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, MotionValue } from "framer-motion";
 
+
 type Props = {
   heroScale: MotionValue<number>;
   heroOpacity: MotionValue<number>;
